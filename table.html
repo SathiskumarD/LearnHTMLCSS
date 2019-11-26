@@ -9,7 +9,13 @@
 </head>
 
 <body>
+    <!-- Including caption element -->
     <table>
+        <caption>
+            Basic Table Elements
+            <p> This table provides a brief overview of the basic elements needed to create tables in HTML,including a
+                brief description of the task they perform</p>
+        </caption>
         <tr>
             <td>Cell 1, Row 1</td>
             <td>Cell 2, Row 1</td>
@@ -27,6 +33,10 @@
 
         </tr>
     </table>
+    <br>
+
+
+
     <table border="1">
         <tr>
             <!-- <th>
@@ -47,15 +57,16 @@
                     field is considered a column, while each entry (or record), is considered a row. A specific value
                     can be accessed from the table by requesting data from an individual column and row.</br>
                     Websites often use tables to display data in a structured format. In fact, HTML has a (table) tag,
-                    as well as (table row-tr) and (table data-td) tags for specifying rows and columns. Since
+                    as well as (table row-&lt;tr&gt;) and (table data-&lt;td&gt;) tags for specifying rows and columns.
+                    Since
                     many tables use the top row for header information, HTML also supports a tag used to define the
-                    cells in the header row (th). By including tables in a webpage, large
+                    cells in the header row &lt;th&gt;). By including tables in a webpage, large
                     amounts of data can be displayed in a easy-to-read format. In the early days of HTML,
                     tables were even used to construct the overall layout of webpages. However, cascading
                     style sheets (CSS) are now the preferred means of designing webpage layouts.</br>
                 </p>
             </td>
-            <td><img src= "./tablepic.jpg" width="200" height="200" alt="tables"> </td>
+            <td><img src="./tablepic.jpg" width="300" height="300" alt="tables"> </td>
         <tr>
             <td>Cell 1, Row 2</td>
             <td>Cell 2, Row 2</td>
@@ -67,8 +78,113 @@
             <td>Cell 3, Row 3</td>
 
         </tr>
-
     </table>
+    <br>
+    <!-- Width element in Table which can either in pixel or percent -->
+    <table border="1" width="50%">
+        <tr>
+            <td>Cell 1, Row 1</td>
+            <td>Cell 2, Row 1</td>
+            <td>Cell 3, Row 1</td>
+        </tr>
+        <tr>
+            <td>Cell 1, Row 2</td>
+            <td>Cell 2, Row 2</td>
+            <td>Cell 3, Row 2</td>
+        </tr>
+        <tr>
+            <td>Cell 1, Row 3</td>
+            <td>Cell 2, Row 3</td>
+            <td>Cell 3, Row 3</td>
+
+        </tr>
+    </table>
+    <!-- cell spacing and cell padding of Table element were on HTML 4.0 but it has backward compatibility -->
+    <!-- Added the cell spacing -->
+    <table border="" cellspacing="5">
+        <tr>
+            <td>Tag</td>
+            <td>Name</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>Identifies What follows a table</td>
+        </tr>
+        <tr>`
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>Establishes a new row within the table</td>
+        </tr>
+        <tr>`
+            <td>&lt;th&gt;</td>
+            <td>Table Header</td>
+            <td>Identifies the contents of a cell as being a header for a group of cells</td>
+        </tr>
+        <tr>`
+            <td>&lt;td&gt;</td>
+            <td>Table Cell</td>
+            <td>This element defines the individual table cells of an element</td>
+        </tr>
+    </table>
+    <!-- Added the cell padding -->
+    <table border="" cellpadding="5">
+        <tr>
+            <td>Tag</td>
+            <td>Name</td>
+            <td>Description</td>
+        </tr>
+        <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>Identifies What follows a table</td>
+        </tr>
+        <tr>`
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>Establishes a new row within the table</td>
+        </tr>
+        <tr>`
+            <td>&lt;th&gt;</td>
+            <td>Table Header</td>
+            <td>Identifies the contents of a cell as being a header for a group of cells</td>
+        </tr>
+        <tr>`
+            <td>&lt;td&gt;</td>
+            <td>Table Cell</td>
+            <td>This element defines the individual table cells of an element</td>
+        </tr>
+    </table>
+    <!-- Included the table header -->
+    <table border="" cellpadding="5">
+        <tr>
+            <th>Tag</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>&lt;table&gt;</td>
+            <td>Table</td>
+            <td>Identifies What follows a table</td>
+        </tr>
+        <tr>`
+            <td>&lt;tr&gt;</td>
+            <td>Table Row</td>
+            <td>Establishes a new row within the table</td>
+        </tr>
+        <tr>`
+            <td>&lt;th&gt;</td>
+            <td>Table Header</td>
+            <td>Identifies the contents of a cell as being a header for a group of cells</td>
+        </tr>
+        <tr>`
+            <td>&lt;td&gt;</td>
+            <td>Table Cell</td>
+            <td>This element defines the individual table cells of an element</td>
+        </tr>
+    </table>
+
 
 </body>
 
