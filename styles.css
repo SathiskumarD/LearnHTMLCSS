@@ -1,0 +1,21 @@
+h1 {
+    color: cadetblue;
+    font-size: 3rem;
+
+}
+
+h2 {
+    color: red;
+    font-size: 2.0rem;
+}
+
+p {
+    font-weight: lighter;
+    font-style: normal;
+    /* font-variant-east-asian: jis04; */
+    font-variant: inherit;
+    font-stretch: semi-expanded;
+
+
+
+}
