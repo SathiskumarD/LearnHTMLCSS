@@ -13,9 +13,15 @@ p {
     font-weight: lighter;
     font-style: normal;
     /* font-variant-east-asian: jis04; */
+    /* For more information refer this website https: //www.w3schools.com/css/css_text.asp */
     font-variant: inherit;
     font-stretch: semi-expanded;
-
-
-
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-decoration-style: inherit;
+    text-indent: 1pt;
+    letter-spacing: 1px;
+    direction: ltr;
 }
