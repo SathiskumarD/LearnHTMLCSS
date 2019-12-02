@@ -24,4 +24,6 @@ p {
     text-indent: 1pt;
     letter-spacing: 1px;
     direction: ltr;
+    /* text-shadow: 3px 2px grey; */
+
 }
