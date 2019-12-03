@@ -1,29 +1,93 @@
-h1 {
-    color: blue;
-    font-size: 3rem;
+/* CSS rules */
+/* Selectors */
+/* declaration block */
+/* declaration-property and values */
 
+/* Type selector */
+h1 {
+  color: blue;
+  font-size: 3rem;
 }
 
 h2 {
-    color: red;
-    font-size: 2rem;
+  color: red;
+  font-size: 2rem;
 }
 
 p {
-    font-weight: lighter;
-    font-style: normal;
-    /* font-variant-east-asian: jis04; */
-    /* For more information refer this website https: //www.w3schools.com/css/css_text.asp */
-    font-variant: inherit;
-    font-stretch: semi-expanded;
-    color: black;
-    text-align: justify;
-    text-decoration: none;
-    text-transform: capitalize;
-    text-decoration-style: inherit;
-    text-indent: 1pt;
-    letter-spacing: 1px;
-    direction: ltr;
-    /* text-shadow: 3px 2px grey; */
+  font-weight: lighter;
+  font-style: normal;
+  /* font-variant-east-asian: jis04; */
+  /* For more information refer this website https: //www.w3schools.com/css/css_text.asp */
+  font-variant: inherit;
+  font-stretch: semi-expanded;
+  color: black;
+  text-align: justify;
+  text-decoration: none;
+  text-transform: capitalize;
+  text-decoration-style: inherit;
+  text-indent: 1pt;
+  letter-spacing: 1px;
+  direction: ltr;
+  border: 2px solid black;
+  line-height: 1em;
+  /* text-shadow: 3px 2px grey; */
+}
 
+/* ID */
+/* ID is supposed to be unique */
+
+#Thousandwords {
+  color: Green;
+  background: white;
+}
+#subheading {
+  color: red;
+  background: white;
+}
+
+/* class selectors */
+/* class need not be unique */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.brown {
+  color: brown;
+}
+/* DIV is block-level element */
+div {
+  color: grey;
+  background: whitesmoke;
+}
+/* SPAN is in-line element */
+span {
+  text-transform: uppercase;
+}
+/* INHERITANCE */
+section {
+  color: red;
+}
+
+/* Last rule and Specificity */
+/* Universal selector */
+/* The
+  following
+  p
+  element
+  come
+  into
+  play
+  irrespective
+  of
+  what
+  mentioned
+  before. */
+p {
+  color: red;
+}
+p {
+  color: blue;
 }
