@@ -9,10 +9,10 @@ h1 {
   font-size: 3rem;
 }
 
-h2 {
+/* h2 {
   color: red;
   font-size: 2rem;
-}
+} */
 
 p {
   font-weight: lighter;
@@ -94,42 +94,53 @@ p {
 #first {
   color: rgb(200, 0, 100);
   background: lightblue;
+  font-size: 15pt;
 }
 #second {
   color: rgb(100, 0, 200);
   background: rgb(255, 255, 255);
+  font-size: 15pt;
 }
 /* about rgba */
 #three {
   color: rgb(0, 100, 0);
   background: rgba(0, 0, 0, 0.5);
+  font-size: 15pt;
 }
 #four {
   color: rgb(100, 100, 100);
   background: rgba(0, 0, 0, 0.01);
+  font-size: 15pt;
 }
 /* HEX values #RRGGBB[AA] */
 /* 123456789 A(10) B(11) C(12) D(13) E(14) F(15)  */
 /* #FF0000 -RED  */
 /* #00FF00 -GREEN */
+/* #0000FF-BLUE */
 #six {
   color: #ff0000;
   background: #000000;
+  font-size: 15pt;
 }
 
 #seven {
   color: #00ff00;
   background: #fff;
+  font-size: 15pt;
 }
 
 /* about rgba */
 #eight {
   color: #0000ff;
   background: currentcolor;
+  font-size: 15pt;
+}
+#five {
+  background: #d0ffd6;
 }
 /* These syntax variations all specify the same color: a fully opaque hot pink. */
 
-/* Hexadecimal syntax */
+Hexadecimal syntax
 #f09 #F09 #ff0099 #FF0099
 /* Functional syntax */
 rgb(255, 0, 153) rgb(255, 0, 153) rgb(255, 0, 153.0) rgb(100%, 0%, 60%) rgb(100%, 0%, 60%) rgb(100%, 0, 60%)
@@ -143,3 +154,11 @@ rgb(255, 0, 153, 1) rgb(255, 0, 153, 100%)
 rgb(255 0 153 / 1) rgb(255 0 153 / 100%)
 /* Functional syntax with floats value */
 rgb(255, 0, 153.6, 1) rgb(1e2, .5e1, .5e0, +.25e2%)
+
+/* font-size,width,height,pixels */
+h6 {
+  font-size: 100px;
+  width: 400px;
+  height: 300px;
+  background: blue;
+}
