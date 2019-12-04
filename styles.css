@@ -38,8 +38,8 @@ p {
 /* ID is supposed to be unique */
 
 #Thousandwords {
-  color: Green;
-  background: white;
+  color: purple;
+  background: grey;
 }
 #subheading {
   color: red;
@@ -91,3 +91,55 @@ p {
 p {
   color: blue;
 }
+#first {
+  color: rgb(200, 0, 100);
+  background: lightblue;
+}
+#second {
+  color: rgb(100, 0, 200);
+  background: rgb(255, 255, 255);
+}
+/* about rgba */
+#three {
+  color: rgb(0, 100, 0);
+  background: rgba(0, 0, 0, 0.5);
+}
+#four {
+  color: rgb(100, 100, 100);
+  background: rgba(0, 0, 0, 0.01);
+}
+/* HEX values #RRGGBB[AA] */
+/* 123456789 A(10) B(11) C(12) D(13) E(14) F(15)  */
+/* #FF0000 -RED  */
+/* #00FF00 -GREEN */
+#six {
+  color: #ff0000;
+  background: #000000;
+}
+
+#seven {
+  color: #00ff00;
+  background: #fff;
+}
+
+/* about rgba */
+#eight {
+  color: #0000ff;
+  background: currentcolor;
+}
+/* These syntax variations all specify the same color: a fully opaque hot pink. */
+
+/* Hexadecimal syntax */
+#f09 #F09 #ff0099 #FF0099
+/* Functional syntax */
+rgb(255, 0, 153) rgb(255, 0, 153) rgb(255, 0, 153.0) rgb(100%, 0%, 60%) rgb(100%, 0%, 60%) rgb(100%, 0, 60%)
+/* ERROR! Don't mix numbers and percentages. */
+rgb(255 0 153)
+/* Hexadecimal syntax with alpha value */
+#f09f #F09F #ff0099ff #FF0099FF
+/* Functional syntax with alpha value */
+rgb(255, 0, 153, 1) rgb(255, 0, 153, 100%)
+/* Whitespace syntax */
+rgb(255 0 153 / 1) rgb(255 0 153 / 100%)
+/* Functional syntax with floats value */
+rgb(255, 0, 153.6, 1) rgb(1e2, .5e1, .5e0, +.25e2%)
