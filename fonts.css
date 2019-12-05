@@ -58,7 +58,7 @@ vw-width-percent of the screen; */
 }
 
 .banner {
-    widows: 50vw;
+    width: 50vw;
     height: 50vh;
     background: blue;
 }
