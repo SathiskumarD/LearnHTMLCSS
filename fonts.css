@@ -1,70 +1,95 @@
 /* font-size,width,height,pixels */
 h1 {
-  font-size: 100px;
-  width: 400px;
-  height: 300px;
-  background: blue;
+    font-size: 100px;
+    width: 400px;
+    height: 300px;
+    background: blue;
 }
+
 /* percent values-Relative */
 
 .outer {
-  width: 100px;
-  height: 100px;
-  background: green;
+    width: 100px;
+    height: 100px;
+    background: green;
 }
+
 .inner {
-  width: 50%;
-  height: 50%;
-  background: red;
+    width: 50%;
+    height: 50%;
+    background: red;
 }
+
 /* em-RELATIVE depends on parent
  1em-16px defaul browser style;
  1em-base value */
 div {
-  font-size: 20px;
+    font-size: 20px;
 }
+
 .relative {
-  font-size: 2em;
+    font-size: 2em;
 }
+
 .absolute {
-  font-size: 32px;
+    font-size: 32px;
 }
+
 /* rem-Relative depends on root;
 1rem= 16 px default browser style; */
 div {
-  font-size: 32px;
+    font-size: 32px;
 }
+
 .relative {
-  font-size: 2rem;
+    font-size: 2rem;
 }
+
 .absolute {
-  font-size: 4rem;
+    font-size: 4rem;
 }
+
 /* vh-height-percent of the screen;
 vw-width-percent of the screen; */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .banner {
-  widows: 50vw;
-  height: 50vh;
-  background: blue;
+    widows: 50vw;
+    height: 50vh;
+    background: blue;
 }
+
 .header {
-  width: 60vw;
-  height: 60vh;
-  background: red;
+    width: 60vw;
+    height: 60vh;
+    background: red;
 }
+
 /* calculate math operations + - * / mix and match values */
 .navbar {
-  background: blue;
-  height: 100px;
-  color: white;
-  font-size: 3rem;
+    background: blue;
+    height: 50px;
+    color: white;
+    font-size: 3rem;
 }
+
 .banner1 {
-  background: red;
-  min-height: calc (100vh - 100px);
+    background: green;
+    min-height: calc(50vh - 50px);
 }
+
+/* Typography */
+/* font-size font-family */
+section {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h6 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Google FONTS */
