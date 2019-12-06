@@ -109,6 +109,9 @@ h6 {
 }
 
 /* CSS Box Model */
+/*BORDER RADIUS
+NEGATIVE MARGIN */
+
 h7 {
     background: blue;
     padding-top: 30px;
@@ -116,6 +119,10 @@ h7 {
     padding-left: 25px;
     padding-right: 25px;
     padding-left: 25px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: green;
+    border-radius: 20px;
 }
 
 p {
@@ -123,4 +130,7 @@ p {
     padding: 20px;
     /* padding:30px 60px;
     padding:20px 40px 60px 10px; */
+    border: 13px solid red;
+    border-radius: 50%;
+    margin-top: 10%;
 }
