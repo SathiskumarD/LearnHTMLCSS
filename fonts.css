@@ -93,3 +93,34 @@ h6 {
 }
 
 /* Google FONTS */
+body {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    font-style: italic;
+    line-height: 2.5em;
+    letter-spacing: 1px;
+}
+
+h6 {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+/* CSS Box Model */
+h7 {
+    background: blue;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+p {
+    background: green;
+    padding: 20px;
+    /* padding:30px 60px;
+    padding:20px 40px 60px 10px; */
+}
