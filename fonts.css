@@ -1,29 +1,29 @@
 /* font-size,width,height,pixels */
-h1 {
+/* h1 {
     font-size: 100px;
     width: 400px;
     height: 300px;
     background: blue;
-}
+} */
 
 /* percent values-Relative */
 
-.outer {
+/* .outer {
     width: 100px;
     height: 100px;
     background: green;
-}
+} */
 
-.inner {
+/* .inner {
     width: 50%;
     height: 50%;
     background: red;
-}
+} */
 
 /* em-RELATIVE depends on parent
  1em-16px defaul browser style;
  1em-base value */
-div {
+/* div {
     font-size: 20px;
 }
 
@@ -33,11 +33,11 @@ div {
 
 .absolute {
     font-size: 32px;
-}
+} */
 
 /* rem-Relative depends on root;
 1rem= 16 px default browser style; */
-div {
+/* div {
     font-size: 32px;
 }
 
@@ -47,11 +47,11 @@ div {
 
 .absolute {
     font-size: 4rem;
-}
+} */
 
 /* vh-height-percent of the screen;
 vw-width-percent of the screen; */
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -67,10 +67,10 @@ vw-width-percent of the screen; */
     width: 60vw;
     height: 60vh;
     background: red;
-}
+} */
 
 /* calculate math operations + - * / mix and match values */
-.navbar {
+/* .navbar {
     background: blue;
     height: 50px;
     color: white;
@@ -80,11 +80,11 @@ vw-width-percent of the screen; */
 .banner1 {
     background: green;
     min-height: calc(50vh - 50px);
-}
+} */
 
 /* Typography */
 /* font-size font-family */
-section {
+/* section {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -93,7 +93,7 @@ h6 {
 }
 
 /* Google FONTS */
-body {
+/* body {
     font-family: 'Roboto',
         sans-serif;
     font-weight: bold;
@@ -106,13 +106,13 @@ body {
 h6 {
     font-family: 'Open Sans',
         sans-serif;
-}
+} */
 
 /* CSS Box Model */
 /*BORDER RADIUS
 NEGATIVE MARGIN */
 
-h7 {
+/* h7 {
     background: blue;
     padding-top: 30px;
     padding-bottom: 60px;
@@ -125,12 +125,12 @@ h7 {
     border-radius: 20px;
 }
 
-p {
+/* p {
     background: green;
     padding: 20px;
-    /* padding:30px 60px;
-    padding:20px 40px 60px 10px; */
+     padding:30px 60px;
+    padding:20px 40px 60px 10px; 
     border: 13px solid red;
     border-radius: 50%;
     margin-top: 10%;
-}
+} */
