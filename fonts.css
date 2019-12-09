@@ -150,18 +150,19 @@ NEGATIVE MARGIN */
 } */
 /* Horizontal centering */
 body {
-    text-align: center;
+  text-align: center;
 }
 
 .block {
-    background: blue;
-    color: white;
-    width: 150px;
-    margin: 20px;
-
+  background: blue;
+  color: white;
+  width: 150px;
+  /* margin: 0 auto; */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inline {
-    background: red;
-    color: white;
+  background: red;
+  color: white;
 }
