@@ -173,7 +173,7 @@ List-style-type:property descendant selectors */
   padding: 0;
   box-sizing: border-box;
 } */
-body {
+/* body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 ul li {
@@ -188,10 +188,56 @@ ul li a {
   display: block;
   padding: 2px;
   margin: 10px auto;
-}
+} */
 /* div {
   background: lightblue;
   color: red;
   padding: 20px;
   margin: 20px;
+} */
+/* in-Line block in Index.html*/
+/* a {
+  font-size: 60px;
+  background: red;
+  margin: 30px;
+  display: inline-block;
+} */
+/* .box-1,
+.box-2,
+.box-3 {
+  width: 200px;
+  height: 200px;
+  color: white;
+}
+.box-1 {
+  background: red;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box-2 {
+  background: blue;
+}
+.box-3 {
+  background: green;
+  padding: 20px;
+}
+div {
+  background: lightskyblue;
+  margin: 10px;
+  color: white;
+}
+.none {
+  display: none;
+}
+.opacity {
+  opacity: 1;
+}
+.opacity-0 {
+  opacity: 0.5;
+} */
+/* .opacity-5 {
+  opacity: 0.5;
+} */
+/* .visibility {
+  visibility: hidden;
 } */
