@@ -241,3 +241,13 @@ div {
 /* .visibility {
   visibility: hidden;
 } */
+div {
+  height: 1000px;
+  color: red;
+}
+.big-img {
+  background: url(test.jpg);
+}
+.small-img {
+  background: url;
+}
